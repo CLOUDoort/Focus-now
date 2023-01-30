@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# 첫 번째 프로젝트 **'Focus now'**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+내가 직접 사용할 todolist를 만들고 싶어서 시작한 프로젝트이다.
 
-## Available Scripts
+## 기본 앱 구성
 
-In the project directory, you can run:
+- 지금 할 일(Focus)
 
-### `npm start`
+- 다음에 할 일(small)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 전체 할 일(열기, 접기)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 지금까지 한 일(코멘트 기입 가능)
 
-### `npm test`
+- Dark-Mode
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 기존 앱과 차별성
 
-### `npm run build`
+Focus now todolist는 내가 할 일을 나열하여 보여주지 않는다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+그저 내가 지금 무슨 일을 해야 할 지에 대해서만 보여주고 이전에 설정한 시간만 보여준다.
+현재 시간을 보여주지 않는다. 현재 시간이 아닌 내가 이 일을 하는데 사용할 시간만 보여준다.
+때문에 많은 생각을 들이지 않고, 내가 해야 할 일에 집중할 수 있다.
